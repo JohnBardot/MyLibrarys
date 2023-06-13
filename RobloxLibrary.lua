@@ -15,7 +15,7 @@ function Library:CreateWindow(WinName)
 	local ElementsHolder_1 = Instance.new("Frame")
 	
 	RobloxLibrary.Name = "RobloxLibrary"
-	RobloxLibrary.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	RobloxLibrary.Parent = game.CoreGui
 	RobloxLibrary.Enabled = true
 	
 	Main_1.Name = "Main"
